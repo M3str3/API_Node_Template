@@ -6,7 +6,9 @@ const router = Router();
 const example_controller = require('../controllers/example')
 
 //Routes
-router.get('/', example_controller.hello);
+router.get('/test', example_controller.test);
+
+router.get('/', example_controller.test);
 
 
 
